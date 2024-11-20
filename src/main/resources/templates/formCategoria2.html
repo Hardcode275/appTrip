@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Trips </title>
+</head>
+<body>
+    <h2>Formulario de Trips</h2>
+    <form th:action="@{/categorias/save}" method="post"></form>
+    <label for="">categoria de trips</label>
+    <input type="text" name="nombre">
+    <label for="">descripcion</label>
+    <input type="text" name="descripcion" id=""><br>
+    <input type="submit" value="Guardar">
+</body>
+</html>

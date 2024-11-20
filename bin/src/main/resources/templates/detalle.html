@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de viajes</title>
+</head>
+<body>
+
+    <h1>Detalle de trips</h1>
+    <!-- <h3 th:text="'Nombre del trip: ' + ${trip.getNomTrip} "></h3> -->
+    <h3 th:text="'Nombre del trip: ' + ${trip.nomTrip} "></h3>
+    <h3 th:text="'Fecha de publicación: ' + ${trip.date} "></h3>
+    <h3 th:text="'Costo: ' + ${trip.costo} + '$'"></h3>
+    <h3 th:text="'Descripción: ' + ${trip.descripcion} "></h3>
+
+</body>
+</html>
